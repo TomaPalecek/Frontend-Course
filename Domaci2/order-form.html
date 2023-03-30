@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+</head>
+<body>
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Order Form</h1>
+    <label for="name"> Your Name:</label>
+    <input id="name" type="text" placeholder="Your Name">
+    <br><br>
+    <label for="mail">Your E-mail</label>
+    <input id="mail" type="email" placeholder="Your Email">
+    <br><br>
+    <label >Choose Your product:</label>
+    <input id="product" name="product" type="radio"><label for="product">Product 1</label>
+    <input id="product2" name="product" type="radio"><label for="product2">Product 2</label>
+    <input id="product3" name="product" type="radio"><label for="product3">Product 3</label>
+    <br><br>
+    <label for="date">Delivery Date:</label>
+    <input id="date" type="date">
+    <br><br>
+    <label for="quant">Quantity</label>
+    <input id="quant" type="number" placeholder="">
+    <br><br>
+    <label for="address">Address:</label>
+    <input id="address" type="text" placeholder="Street Address">
+    <br><br>
+    <label for="city">City</label>
+    <select id="city">
+        <option value="City1">--select-region--</option>
+        <option value="City2">City2</option>
+        <option value="City3">City3</option>
+        <option value="City4">City4</option>
+      </select>
+    <br><br>
+    <label for="region">Region</label>
+    <select id="region" aria-placeholder="--select-region--">
+        <option value="region1">--select-region--</option>
+        <option value="region2">Region2</option>
+        <option value="region3">Region3</option>
+        <option value="region4">Region4</option>
+      </select>
+    <br><br>
+    <input id="notify" type="checkbox"><label for="notify">Notify me by email</label>
+    <br><br>
+    <textarea placeholder="Your comment here"></textarea>
+    <br><br>
+    <button>Order</button>
+
+    
+</body>
+</html>
